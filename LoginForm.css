@@ -1,0 +1,52 @@
+body {
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure background covers the entire viewport */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    max-width: 300;
+    padding: 50px; padding-left: 50px; padding-right: 50px;
+    background-color: rgba(220, 219, 219, 0.814); /* Add a semi-transparent white background to the login container */
+    border-radius: 10px; /* Add rounded corners */
+    align-items: center;
+    
+  }
+
+  .form-group {
+    margin-top:15px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #083d75;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
